@@ -1,20 +1,31 @@
-# Possíveis classes:
+> # Possíveis classes:
 
-## Tarefa
-## Usuário
-## TarefaUsuario
+>> - Tarefa
+>> - Usuário
+>> - TarefaUsuario
 
-# Funcionalidades:
-
-## Criar tarefa
-## Criar prioridade da tarefa (urgente, normal, baixa)
-## Data de criação
-## Data de entrega
-## Status ->
-    -- espera 
-    -- análise
-    -- progresso
-    -- teste
-    -- pausada
-    -- concluída
-    -- cancelada
+> ## Usuario
+>> - Criar, editar e excluir usuários
+        - Nome
+        - Cargo
+        - Setor
+>> - Mostrar um ou todos os usuários
+> ## Tarefa
+>> - Criar, editar e excluir tarefas
+        - Id
+        - Título
+        - Descrição
+        - Status (
+                - espera 
+                - análise
+                - progresso
+                - teste
+                - pausada
+                - concluída
+                - cancelada
+        )
+        - Prioridade
+        - Data criação
+        - Data entrega
+        - Responsável
+>> - Mostrar uma ou todas as tarefas
